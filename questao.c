@@ -8,7 +8,7 @@
 int nfilho;
 
 //Método inicializador de processso filho
-void proc_filho()
+void cria_ProcFilho()
 {
 	printf("Processo FILHO %d iniciado\n",nfilho);
 	printf("Vair dormir por %d segundos\n",nfilho*10);
@@ -32,7 +32,7 @@ void main()
 			wait(NULL);
 		}else if
 		{
-			proc_filho();
+			cria_ProcFilho();
 		}else
 		{
 			exit(-1);
